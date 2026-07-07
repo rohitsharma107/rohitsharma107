@@ -1,4 +1,4 @@
-## Hi there 👋, I'm Rohit Sharma!
+## Hi there 👋, I'm Rohit Sharma Suravajjula!
 
 I am an engineer focused on building end-to-end IoT solutions, hardware-to-software data pipelines, and responsive software applications. I specialize in bridging the gap between physical machinery and modern software dashboards.
 
