@@ -4,7 +4,7 @@ I am an engineer focused on building end-to-end IoT solutions, hardware-to-softw
 
 ---
 
-### 🛠️ Core Technical Skills
+### 🛠️ Skills
 
 - **Hardware & Firmware:** Arduino, ESP32-S3, Wemos D1 Mini, Microcontrollers, Sockets (TCP/IP)
 - **Software & Backend:** Python, Streamlit, Web Application Development, Data Parsing
