@@ -1,67 +1,57 @@
-# Hi there 👋, I'm Rohit Suravajjula!
+Hi there 👋, I'm Rohit Suravajjula!
 
-I'm an Electronics and Communication Engineering (ECE) graduate who enjoys building software and embedded projects. I believe in learning by building real-world applications that solve practical problems.
+I'm an Electronics and Communication Engineering (ECE) graduate who builds at the hardware-software boundary — architecting firmware, Python pipelines, and dashboards that turn raw device data into usable output. I believe in learning by building real-world systems that solve practical problems.
 
-Currently, I'm working as an intern on an industrial automation project, where I'm learning how embedded devices, Python applications, and data processing work together to automate workflows. I'm continuously improving my skills by exploring new technologies and documenting my learning journey.
-
----
+Currently, I'm a BioPharma Engineering Intern (Software & Embedded Systems) at Promea Therapeutics, working in R&D / Connected Health on an industrial edge gateway that bridges a legacy medical device to a software backend for automated reporting.
 
 ## 🛠️ Skills
 
-### Programming
+**Programming**
 - Python
 - Arduino (C/C++)
 
-### Embedded Systems
-- ESP32-S3
-- Wemos D1 Mini
-- Microcontrollers
+**Embedded Systems**
+- ESP32-S3-N16R8
+- ESP8266 (NodeMCU)
+- I2C Bus Interfacing
+- RFID (EM-18)
+- Serial Debugging & Protocol Analysis
 - TCP/IP Socket Communication
 
-### Software Development
+**Software Development**
 - Streamlit
 - Data Parsing & Processing
-- PDF Report Generation
+- PDF Report Generation (ReportLab)
 
-### Tools
-- Git
-- GitHub
+**Tools**
+- Git & GitHub
 - VS Code
 - Virtual Environments (.venv)
 
----
-
 ## 🚀 Featured Project
 
-### Industrial Edge Gateway for Legacy Medical Devices
+**Industrial Edge Gateway for Legacy Medical Devices**
 
-Developed an ESP32-S3 and Python-based system that wirelessly collects data from a legacy medical analyzer and transfers it to a Python Streamlit application. The application processes the received data and automatically generates patient reports, reducing manual effort and improving workflow efficiency.
+Designed and built an end-to-end wireless data acquisition gateway bridging a legacy electrolyte analyzer to a software backend during R&D validation.
 
-**Technologies Used:**
-- ESP32-S3
-- Python
-- Streamlit
-- TCP/IP
-- Git & GitHub
-
----
+- Diagnosed serial communication dropouts via COM-level protocol analysis and traced the failure to a missing USB host controller — initially tested on a Wemos D1 Mini, but it lacked USB host support, so migrated to an ESP32-S3-N16R8 to resolve the gap and eliminate I2C dual-bus throughput constraints.
+- Architected a two-part Python pipeline: a TCP listener for automated transmission-complete detection, and a Streamlit dashboard that auto-matches incoming data to sample records and generates diagnostic PDF reports.
+- Engineered a "smart flush" mechanism that injects synthetic end-markers, cutting transmission-complete detection from multi-second timeouts to near-instant.
 
 ## 📚 Currently Learning
 
-- Advanced Python
+- Python
 - Embedded Systems
 - Git & GitHub Best Practices
 - SQL
 - Software Development
 
----
-
 ## 🎯 Career Goal
 
-To become a Software Engineer or Embedded Software Engineer by continuously building practical projects, strengthening my programming skills, and contributing to real-world engineering solutions.
-
----
+To grow as a Software Engineer / Embedded Software Engineer by building practical, production-facing systems and contributing to real-world engineering solutions.
 
 ## 📫 Connect with Me
 
+- LinkedIn: https://www.linkedin.com/in/rohit-suravajjula-bb96a926a/
 - GitHub: https://github.com/rohit-suravajjula
+- Email: suravajjularohit2003@gmail.com
