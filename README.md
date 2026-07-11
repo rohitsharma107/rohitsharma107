@@ -1,4 +1,4 @@
-Hi there 👋, I'm Rohit Suravajjula!
+# Hi there 👋, I'm Rohit Suravajjula!
 
 I'm an Electronics and Communication Engineering (ECE) graduate who builds at the hardware-software boundary — architecting firmware, Python pipelines, and dashboards that turn raw device data into usable output. I believe in learning by building real-world systems that solve practical problems.
 
