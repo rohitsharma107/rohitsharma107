@@ -36,12 +36,13 @@ Built a Python TCP listener and Streamlit dashboard for automated data acquisiti
 Designed a smart transmission-complete detection mechanism using synthetic end-markers, significantly reducing processing latency.
 
 ## 📚 Currently Learning
-Embedded C
-FreeRTOS
-Embedded Software Architecture
-Python
-SQL
-Git & GitHub Best Practices
+Embedded C,
+ FreeRTOS,
+ Embedded Software Architecture,
+ Python,
+ SQL,
+ Git & GitHub Best Practices
+
 ## 🎯 Career Goal
 
 I'm working toward becoming an Embedded Software / Firmware Engineer, building production-quality embedded systems using Embedded C, RTOS, ESP32, Python, and networking, with a focus on solving real-world engineering problems.
