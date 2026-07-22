@@ -1,57 +1,50 @@
-# Hi there 👋, I'm Rohit Suravajjula!
+Hi there 👋, I'm Rohit Suravajjula!
 
-I'm an Electronics and Communication Engineering (ECE) graduate who builds at the hardware-software boundary — architecting firmware, Python pipelines, and dashboards that turn raw device data into usable output. I believe in learning by building real-world systems that solve practical problems.
+I'm an Embedded Software Engineer passionate about building systems at the intersection of firmware, embedded hardware, and software applications. I enjoy developing solutions that connect embedded devices with modern software, transforming raw hardware data into reliable, user-friendly applications.
 
-Currently, I'm a BioPharma Engineering Intern (Software & Embedded Systems) at Promea Therapeutics, working in R&D / Connected Health on an industrial edge gateway that bridges a legacy medical device to a software backend for automated reporting.
+Currently, I'm a BioPharma Engineering Intern (Software & Embedded Systems) at Promea Therapeutics, where I contribute to an industrial edge gateway for wireless medical device data acquisition. My work involves developing ESP32 firmware, Python applications, Streamlit dashboards, serial communication, TCP/IP networking, and automation tools for real-world engineering workflows.
 
-## 🛠️ Skills
+🛠️ Technical Skills
+Programming
+Python
+Embedded C / Arduino (C/C++)
+Embedded Systems
+ESP32-S3
+ESP8266 (NodeMCU)
+FreeRTOS (Learning)
+UART / Serial Communication
+I2C Communication
+RFID (EM-18)
+TCP/IP Socket Programming
+Software Development
+Streamlit
+Data Processing & Automation
+PDF Report Generation (ReportLab)
+Tools
+Git & GitHub
+VS Code
+AI-assisted Development Tools
+🚀 Featured Project
+Industrial Edge Gateway for Legacy Medical Devices
 
-**Programming**
-- Python
-- Arduino (C/C++)
+Designed and developed an end-to-end wireless data acquisition gateway that bridges a legacy electrolyte analyzer with a Python-based software backend.
 
-**Embedded Systems**
-- ESP32-S3-N16R8
-- ESP8266 (NodeMCU)
-- I2C Bus Interfacing
-- RFID (EM-18)
-- Serial Debugging & Protocol Analysis
-- TCP/IP Socket Communication
+Highlights
+Diagnosed serial communication failures through COM-level protocol analysis, identifying a missing USB Host Controller and migrating from a Wemos D1 Mini to an ESP32-S3.
+Built a Python TCP listener and Streamlit dashboard for automated data acquisition, sample matching, and PDF report generation.
+Designed a smart transmission-complete detection mechanism using synthetic end-markers, significantly reducing processing latency.
+📚 Currently Learning
+Embedded C
+FreeRTOS
+Embedded Software Architecture
+Python
+SQL
+Git & GitHub Best Practices
+🎯 Career Goal
 
-**Software Development**
-- Streamlit
-- Data Parsing & Processing
-- PDF Report Generation (ReportLab)
+I'm working toward becoming an Embedded Software / Firmware Engineer, building production-quality embedded systems using Embedded C, RTOS, ESP32, Python, and networking, with a focus on solving real-world engineering problems.
 
-**Tools**
-- Git & GitHub
-- VS Code
-- Virtual Environments (.venv)
-
-## 🚀 Featured Project
-
-**Industrial Edge Gateway for Legacy Medical Devices**
-
-Designed and built an end-to-end wireless data acquisition gateway bridging a legacy electrolyte analyzer to a software backend during R&D validation.
-
-- Diagnosed serial communication dropouts via COM-level protocol analysis and traced the failure to a missing USB host controller — initially tested on a Wemos D1 Mini, but it lacked USB host support, so migrated to an ESP32-S3-N16R8 to resolve the gap and eliminate I2C dual-bus throughput constraints.
-- Architected a two-part Python pipeline: a TCP listener for automated transmission-complete detection, and a Streamlit dashboard that auto-matches incoming data to sample records and generates diagnostic PDF reports.
-- Engineered a "smart flush" mechanism that injects synthetic end-markers, cutting transmission-complete detection from multi-second timeouts to near-instant.
-
-## 📚 Currently Learning
-
-- Python
-- Embedded Systems
-- Git & GitHub Best Practices
-- SQL
-- Software Development
-
-## 🎯 Career Goal
-
-To grow as a Software Engineer / Embedded Software Engineer by building practical, production-facing systems and contributing to real-world engineering solutions.
-
-## 📫 Connect with Me
-
-- LinkedIn: https://www.linkedin.com/in/rohit-suravajjula-bb96a926a/
-- GitHub: https://github.com/rohit-suravajjula
-- Email: suravajjularohit2003@gmail.com
+📫 Connect With Me
+LinkedIn: https://www.linkedin.com/in/rohit-suravajjula-bb96a926a/
+GitHub: github.com/rohit-suravajjula
+Email: suravajjularohit2003@gmail.com
